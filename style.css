@@ -1,5 +1,7 @@
 body {
     background-color: #00d9ff; 
+    font-family: Arial;
+    
 }
 
 p {
@@ -12,6 +14,7 @@ p {
 .Hola{
     font-size:50px;
     text-align: center;
+    font-style: italic;
 }
 
 .container {
@@ -22,7 +25,11 @@ p {
     height: 40%;
     border: 4px solid red;
 }
-
+header{
+    background-color: #00ff88;
+    width: 100%;
+    height: 50px;
+}
 hr {
     background-color: black;
     height: 7px;  
@@ -31,3 +38,8 @@ hr {
     padding: 0%;
     border: none;    
 }
+
+.container main img{
+    width: 100%;
+}
+
